@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farm-Fresh Food Signup </title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <div class="image-container">
+        <h1 class="farm"> Stardew Farms</h1>
+        <img src="./assets/images/stardewfarmslogo.svg" class="illustration" alt="Star Dew Farms logo.">
+        <p class="signupsentence"> Sign up for farm-fresh produce, eggs and meat in your area!</p>
+    </div>
+
+    <div>
+
+        <h1 class="form-header"> Get Started </h1>
+        <div class="form-container">
+            <div class="input-container">
+                <label for="f-name"></label>
+                <input type="text" id="f-name" required>
+                <span>First Name</span>
+                <div class="error"></div>
+
+                <div class="input-container">
+                    <label for="l-name"></label>
+                    <input type="text" id="l-name" required>
+                    <span>
+                        Last name
+                    </span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label for="mail">
+                    </label>
+                    <input type="email" name="mail" id="mail" required>
+                    <span>
+                        E-mail
+                    </span>
+                    <div class="error"></div>
+                </div>
     
+                <div class="input-container">
+                    <label for="phone">
+                    </label>
+                    <input type="tel" name="phone" id="phone" required>
+                    <span>Phone</span>
+                    <div class="error"></div>
+                </div>
+    
+                <div class="input-container">
+                    <label for="user-password"></label>
+                    <input type="password" name="user-password" id="user-password" class="user-password" required>
+                    <span>Password</span>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-container">
+                    <label for="user-password-confirm"></label>
+                    <input type="password" name="user-password-confirm" id="user-password-confirm" class="password-confirmation" required>
+                    <span>
+                        Confirm Password
+                    </span>
+                    <div class="error"></div>
+                </div>
+
+                <div id="btn">
+                    <button type="submit" class="submit-btn">Create Account</button>
+                    <p class="btn-text">
+                        Already have an account..? <span class="btm-text-highlighted">  Log in</span>
+                    </p>
+                </div>
+            </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    </main>
+
+
+
 </body>
+
 </html>
